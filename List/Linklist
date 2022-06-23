@@ -1,1 +1,13 @@
+import java.util.LinkedList;
 
+class Main {
+  public static void main(String[] args){
+     
+    LinkedList<String> cars = new LinkedList<>();
+
+    cars.add("Tata");
+    cars.add("Mahindra");
+    cars.add("Range Rover");
+    System.out.println("LinkedList: " + cars);
+  }
+}
