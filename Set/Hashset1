@@ -1,1 +1,14 @@
+import java.util.HashSet;
+
+public class Main {
+  public static void main(String[] args) {
+    HashSet<String> cars = new HashSet<String>();
+    cars.add("Tata");
+    cars.add("Mahindra");
+    cars.add("Suzuki");
+    cars.add("Jeep");
+    cars.add("Mahindra");
+    System.out.println(cars);
+  }
+}
 
