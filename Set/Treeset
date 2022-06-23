@@ -9,9 +9,7 @@ class Main {
         numbers.add(6);
         System.out.println("TreeSet: " + numbers);
 
-        
         System.out.println("Removed First Element: " + numbers.pollFirst());
-
 
         System.out.println("Removed Last Element: " + numbers.pollLast());
 
